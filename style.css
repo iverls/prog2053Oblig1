@@ -2,7 +2,7 @@ h1 {
   font-family: "roboto", sans-serif;
 }
 header {
-  background-color: black;
+  background-color: #333;
   padding: 10px;
   text-align: center;
   border: 1px solid #000;
@@ -13,9 +13,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: lightblue;
+  text-align: center;
 }
 footer {
-  background-color: black;
+  background-color: #333;
   padding: 10px;
   text-align: center;
   border: 1px solid #000;
@@ -34,17 +35,16 @@ nav ul li a {
   text-decoration: none;
   display: block;
 }
-nav ul li a:link {
+a:link {
   color: white;
 }
-nav ul li a:visited {
+a:visited {
   color: orange;
 }
 .split-container {
   display: flex;
-  width: 80%;
+  width: 70%;
   border: 1px solid #ccc;
-  padding: 10px;
   margin: 0 auto;
 }
 .text-box,
