@@ -2,10 +2,24 @@ h1 {
   font-family: "roboto", sans-serif;
 }
 header {
-  background-color: #f1f1f1;
+  background-color: black;
   padding: 10px;
   text-align: center;
   border: 1px solid #000;
+  color: white;
+}
+body {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000;
+  color: white;
 }
 nav ul {
   list-style-type: none;
@@ -15,13 +29,29 @@ nav ul {
 }
 nav ul li {
   margin: 0 10px;
-  display: inline-block;
-  border: 1px solid #000;
-  padding: 5px;
-  background-color: lightgray;
 }
 nav ul li a {
   text-decoration: none;
-  color: #000;
   display: block;
+}
+nav ul li a:link {
+  color: white;
+}
+nav ul li a:visited {
+  color: orange;
+}
+.split-container {
+  display: flex;
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+}
+.text-box,
+.image-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
