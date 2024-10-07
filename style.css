@@ -1,7 +1,5 @@
-h1 {
-  font-family: "roboto", sans-serif;
-}
-header {
+header,
+footer {
   background-color: #333;
   padding: 10px;
   text-align: center;
@@ -13,12 +11,6 @@ body {
   padding: 0;
   background-color: lightblue;
   text-align: center;
-}
-footer {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
-  color: white;
 }
 nav ul {
   list-style-type: none;
@@ -32,8 +24,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   display: block;
-}
-a:link {
   color: white;
 }
 a:visited {
