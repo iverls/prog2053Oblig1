@@ -36,24 +36,23 @@ function updateWeather() {
         displayWeather(weatherData, location.name);
       });
   });
+}
 
-  function displayWeather(weatherData, locationName) {
-    const container = document.querySelector(".weather-container");
+function displayWeather(weatherData, locationName) {
+  const container = document.querySelector(".weather-container");
 
-    const weatherDiv = document.createElement("div");
-    weatherDiv.classList.add("weather-location");
+  const weatherDiv = document.createElement("div");
+  weatherDiv.classList.add("weather-location");
 
-    weatherDiv.innerHTML = `
+  weatherDiv.innerHTML = `
       <h3>Current Weather in ${locationName}</h3>
       <p>Temperature: ${weatherData.current_weather.temperature} °C</p>
       <p>Wind Speed: ${weatherData.current_weather.windspeed} km/h</p>
       <p>Wind Direction: ${weatherData.current_weather.winddirection}°</p>
       <p>Observation Time: ${weatherData.current_weather.time}</p>`;
 
-    container.appendChild(weatherDiv);
-  }
+  container.appendChild(weatherDiv);
 }
-
 updateWeather();
 
-setInterval(updateWeather, 300000);
+setInterval(updateWeather, 30000);
