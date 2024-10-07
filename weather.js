@@ -16,14 +16,29 @@ function updateWeather() {
       longitude: -0.1278,
     },
     {
+      name: "Vaduz",
+      latitude: 47.1411,
+      longitude: 9.5215,
+    },
+    {
       name: "Sydney",
       latitude: -33.8688,
       longitude: 151.2093,
     },
     {
+      name: "Vaduz",
+      latitude: 47.1411,
+      longitude: 9.5215,
+    },
+    {
       name: "Cairo",
       latitude: 30.0444,
       longitude: 31.2357,
+    },
+    {
+      name: "Vientiane",
+      latitude: 17.9757,
+      longitude: 102.6331,
     },
   ];
 

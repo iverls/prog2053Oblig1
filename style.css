@@ -112,7 +112,7 @@ cite {
   border-radius: 5px;
 }
 .weather-location {
-  flex: 0 0 calc(20% - 20px);
+  flex: 0 0 calc(25% - 20px);
   box-sizing: border-box;
   margin: 10px;
   background-color: #f4f4f4;
