@@ -27,6 +27,9 @@ function updateWeather() {
     },
   ];
 
+  const container = document.querySelector(".weather-container");
+  container.innerHTML = "";
+
   locations.forEach((location) => {
     fetch(
       `https://api.open-meteo.com/v1/forecast?latitude=${location.latitude}&longitude=${location.longitude}&current_weather=true`,
